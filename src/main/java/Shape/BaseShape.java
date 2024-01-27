@@ -82,7 +82,7 @@ public class BaseShape extends Transform implements Cloneable {
         for(Point2d point : shape.coords) {
             coords.remove(point);
         }
-        return null;
+        return this;
     }
 
     /** TODO
